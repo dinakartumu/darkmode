@@ -1,0 +1,100 @@
+
+body{
+	background-color: #28292a !important;
+	color: #fff !important;
+}
+
+a{
+	color: #ed7056 !important
+}
+
+.header {
+     background-color: #28292a !important; 
+     border-bottom: 1px solid #28292a !important; 
+}
+
+.header-logo-invertocat {
+    color: #fff !important;
+}
+
+.header-nav-link{
+	color: #fff !important;
+}
+
+.alert{
+	border-color: transparent !important;
+}
+
+/*right panel in home page*/
+.github-jobs-promotion p{
+	background-image: -webkit-linear-gradient(#28292a, #28292a) !important;
+    background-image: linear-gradient(#28292a, #28292a) !important;
+}
+
+.github-jobs-promotion a.jobs-logo strong{
+	color: #fff !important
+}
+
+.boxed-group>h3, .boxed-group .heading{
+	background-color: #28292a !important;
+}
+
+.boxed-group-inner{
+	background-color: #28292a !important;
+}
+
+.filter-bar{
+	background-color: #28292a !important;
+}
+
+/*for repo pages*/
+.repohead.experiment-repo-nav {
+	background-color: #28292a !important;
+}
+
+.text-emphasized{
+	color: #ed7056 !important
+}
+
+.commit-tease{
+	background-color: #28292a !important;
+}
+
+.commit-author-section{
+	color: #fff !important;
+}
+
+table.files{
+	background: #28292a !important; 
+}
+
+.readme .markdown-body, .readme .plain{
+	background: #28292a !important;
+}
+
+.markdown-body .highlight pre, .markdown-body pre{
+	background: #28292a !important;
+}
+
+/*left panel in settings*/
+.menu{
+	background: #28292a !important;
+}
+
+.menu-heading{
+	background: #28292a !important;
+}
+
+.menu-item{
+	text-shadow: none !important;
+}
+
+/*for profile page*/
+.blankslate{
+	background: #28292a !important;
+}
+
+/*.for dropdown menu*/
+.dropdown-menu{
+	background: #28292a !important;
+}

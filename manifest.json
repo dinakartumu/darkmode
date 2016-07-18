@@ -31,7 +31,7 @@
         "https://www.youtube.com/*"
       ],
       "css": [
-        "src/inject/inject.css"
+        "src/inject/youtube.css"
       ]
     },
     {
@@ -44,7 +44,15 @@
     },
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://github.com/*"
+      ],
+      "css": [
+        "src/inject/github.css"
+      ]
+    },
+     {
+      "matches": [
+        "https://github.com/*"
       ],
       "js": [
         "src/inject/inject.js"
