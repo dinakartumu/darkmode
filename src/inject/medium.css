@@ -1,0 +1,126 @@
+body{
+	background-color: #28292a !important;
+	color: #fff !important;
+}
+
+a{
+	color: #ed7056 !important;
+}
+
+/*for headers*/
+.metabar{
+	background-color: #28292a !important;
+}
+
+.svgIcon{
+	fill: #fff !important;
+}
+
+/*for container*/
+.democlass{
+	background: #28292a !important;
+	background-color: #28292a !important;
+}
+
+.cardChromeless{
+    background: rgba(15, 11, 6,0.1) !important;
+}
+
+.graf--coverTitle, .graf--h2, .graf--h3{
+	color: #fff !important
+}
+
+.graf--h4{
+	color: #BDBDBD !important;
+}
+
+.postMetaInline{
+	color: #fff !important;
+}
+
+.catalogPreview--borderless .catalogPreview-name, .catalogPreview--borderless .catalogPreview-description{
+	color: #fff !important;
+}
+
+.heading{
+	color: #fff !important;	
+}
+
+.button--chromeless, .button--link{
+	color: #fff !important;
+}
+
+/*for artice page*/
+
+.metabar-logo .metabar-collectionNamePretext{
+	color: #fff !important;
+}
+
+h3.metabar-logo{
+	color: #ed7056 !important;
+}
+.postArticle{
+	background-color: #28292a !important;
+}
+
+.graf--sectionCaption, .imageCaption{
+	color: #BDBDBD !important;
+}
+
+.graf--pullquote{
+	color: #fff !important;
+}
+
+.body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-targeted{
+	
+}
+
+hr.section-divider:before{
+	color: #fff !important;
+}
+
+.card-description{
+	color: #fff !important;
+}
+/*for related posts*/
+.relatedPostGridContainer{
+	background-color: #28292a !important;
+}
+
+.u-fontSizeSmaller{
+	color: #BDBDBD !important;
+}
+
+/*for response section*/
+.responsesWrapper{
+	background-color: #28292a !important;
+}
+
+.responsesStream-title .heading-title{
+	color: #BDBDBD !important;
+}
+
+.inlineEditor-placeholder, .heading-title--semibold{
+	color: #BDBDBD !important;
+}
+
+.streamItemConversation .heading-title{
+	color: #fff !important;
+}
+
+/*for post actioncard*/
+.postActionsBar-content{
+	background-color: #28292a !important;
+}
+
+.readNextPromo{
+	background-color: #28292a !important;
+}
+
+.readNextPromo-postTitle{
+	color: #ed7056 !important
+}
+
+
+
+

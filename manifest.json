@@ -42,17 +42,25 @@
         "src/inject/gmail.css"
       ]
     },
+    // {
+    //   "matches": [
+    //     "https://github.com/*"
+    //   ],
+    //   "css": [
+    //     "src/inject/github.css"
+    //   ]
+    // },
     {
       "matches": [
-        "https://github.com/*"
+        "https://medium.com/*"
       ],
       "css": [
-        "src/inject/github.css"
+        "src/inject/medium.css"
       ]
     },
-     {
+    {
       "matches": [
-        "https://github.com/*"
+        "https://medium.com/*"
       ],
       "js": [
         "src/inject/inject.js"
