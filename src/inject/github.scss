@@ -1,0 +1,258 @@
+@import './colors.scss';
+
+body{
+	background-color: $mainblue !important;
+	color: #fff !important;
+}
+
+a{
+	color: #ffc600 !important
+}
+
+.header {
+     background-color: $mainblue !important; 
+     border-bottom: 1px solid $mainblue !important; 
+}
+
+.header-logo-invertocat {
+    color: #fff !important;
+}
+
+.header-nav-link{
+	color: #fff !important;
+}
+
+.alert{
+	border-color: transparent !important;
+}
+
+.btn{
+	color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/*right panel in home page*/
+.github-jobs-promotion p{
+	background-image: -webkit-linear-gradient($mainblue, $mainblue) !important;
+    background-image: linear-gradient($mainblue, $mainblue) !important;
+}
+
+.github-jobs-promotion a.jobs-logo strong{
+	color: #fff !important
+}
+
+.boxed-group>h3, .boxed-group .heading{
+	background-color: $mainblue !important;
+}
+
+.boxed-group-inner{
+	background-color: $mainblue !important;
+}
+
+.filter-bar{
+	background-color: $mainblue !important;
+}
+
+.private .mini-repo-list-item {
+    background-color: $darkblue !important;
+}
+
+/*for repo pages*/
+.repohead span.fork-flag, .repohead span.mirror-flag{
+	color: #00E676;
+}
+.pagehead{
+	border-bottom: 1px solid #2C3A44 !important;
+}
+
+.social-count{
+	background-color: #15232d !important;
+}
+
+.repohead.experiment-repo-nav {
+	background-color: $mainblue !important;
+}
+
+.reponav-item{
+	color: $lightwhite !important; 
+}
+
+.reponav-item.selected {
+    background-color: #2C3A44 !important;
+    border-color: #ffc600 !important;
+    color: #fff !important;
+}
+
+.text-gray-dark.mb-2{
+    color: #ffc600 !important;
+}
+
+.text-emphasized{
+	color: #ffc600 !important
+}
+
+.repository-lang-stats ol.repository-lang-stats-numbers li .lang{
+	color: #13abdc !important;
+}
+
+/*under code tab*/
+.branch-infobar{
+	color: #fff !important;
+	background-color: $mainblue !important;
+}
+
+.commit-tease{
+	background-color: $mainblue !important;
+}
+
+.commit-author-section{
+	color: #fff !important;
+}
+
+table.files{
+	background: $mainblue !important; 
+}
+
+table.files tr.navigation-focus td {
+    background: $darkblue !important;;
+}
+
+.commit-tease-contributors{
+	background-color: transparent !important;
+}
+
+.file-header{
+	background-color: transparent !important;
+}
+
+.readme .markdown-body, .readme .plain{
+	background: $mainblue !important;
+}
+
+.table-list-header{
+	background: $darkblue !important;
+}
+
+.table-list-header-toggle .select-menu-button:hover, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected:hover{
+	color: $lightwhite !important;
+}
+
+.select-menu-header, .select-menu-divider{
+	background: $darkblue !important;
+}
+
+/*left panel in settings*/
+.menu{
+	background: $darkblue !important;
+}
+
+.menu-heading{
+	background: $darkblue !important;
+}
+
+.menu-item{
+	text-shadow: none !important;
+}
+
+/*for profile page*/
+.blankslate{
+	background: $mainblue !important;
+}
+
+.user-profile-nav{
+	background: #0b1a25 !important;
+	border-bottom: transparent !important;
+}
+
+.text-gray{
+	color: rgba(255, 255, 255, 0.77) !important;
+}
+.user-profile-bio{
+	color: rgba(255, 255, 255, 0.77) !important;
+}
+
+.muted-link{
+	color: rgba(255, 255, 255, 0.77) !important;
+}
+
+.user-profile-sticky-bar::after{
+	background: #0b1a25 !important;
+}
+
+/*.for dropdown menu*/
+.dropdown-menu{
+	background: $mainblue !important;
+}
+
+/*for popup*/
+.facebox-popup{
+	background: $mainblue !important;
+}
+
+/*for buttons*/
+.btn {
+	background: $darkblue !important;
+}
+
+/*for graph section*/
+.tint-box{
+    background: rgba(6, 20, 33, 0.58) !important;
+}
+.capped-card-content{
+    background: rgba(6, 20, 33, 0.58) !important;
+}
+
+/*for timeline in profile page*/
+.profile-timeline {
+	.profile-timeline-month-heading{
+		background: $darkblue !important;
+		border: 1px solid $green !important;
+	}
+	.discussion-item-icon{
+		background: $green !important;
+		border-color: $green !important;
+	}
+}
+
+.profile-timeline-year-list.bg-white{
+	background: $mainblue !important;
+}
+
+/*for readme*/
+.markdown-body .highlight pre, .markdown-body pre{
+	background: $darkblue !important;
+}
+
+.markdown-body table tr, .markdown-body table tr:nth-child(2n){
+	background: $mainblue !important;
+}
+
+.type-javascript{
+	background: $darkblue !important;
+}
+
+/*this for javascript*/
+.pl-smi, .pl-s .pl-s1{
+	color: #ffc600 !important;
+}
+
+.pl-s, .pl-pds, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sre, .pl-sr .pl-sra{
+	color: #00E676 !important;
+}
+
+.pl-k{
+	color: #FB94FF !important;
+}
+
+.pl-e, .pl-en {
+    color: #c3cacf !important;
+}
+
+.blob-code-inner{
+	color: #c3cacf !important;
+}
+
+
+
+
+
+

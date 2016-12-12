@@ -1,241 +1,252 @@
-
-body{
-	background-color: #173448 !important;
-	color: #fff !important;
+body {
+  background-color: #173448 !important;
+  color: #fff !important;
 }
 
-a{
-	color: #ffc600 !important
+a {
+  color: #ffc600 !important;
 }
 
 .header {
-     background-color: #173448 !important; 
-     border-bottom: 1px solid #173448 !important; 
+  background-color: #173448 !important;
+  border-bottom: 1px solid #173448 !important;
 }
 
 .header-logo-invertocat {
-    color: #fff !important;
+  color: #fff !important;
 }
 
-.header-nav-link{
-	color: #fff !important;
+.header-nav-link {
+  color: #fff !important;
 }
 
-.alert{
-	border-color: transparent !important;
+.alert {
+  border-color: transparent !important;
 }
 
-.btn{
-	color: rgba(255, 255, 255, 0.92) !important;
+.btn {
+  color: rgba(255, 255, 255, 0.92) !important;
 }
 
 /*right panel in home page*/
-.github-jobs-promotion p{
-	background-image: -webkit-linear-gradient(#173448, #173448) !important;
-    background-image: linear-gradient(#173448, #173448) !important;
+.github-jobs-promotion p {
+  background-image: -webkit-linear-gradient(#173448, #173448) !important;
+  background-image: linear-gradient(#173448, #173448) !important;
 }
 
-.github-jobs-promotion a.jobs-logo strong{
-	color: #fff !important
+.github-jobs-promotion a.jobs-logo strong {
+  color: #fff !important;
 }
 
-.boxed-group>h3, .boxed-group .heading{
-	background-color: #173448 !important;
+.boxed-group > h3, .boxed-group .heading {
+  background-color: #173448 !important;
 }
 
-.boxed-group-inner{
-	background-color: #173448 !important;
+.boxed-group-inner {
+  background-color: #173448 !important;
 }
 
-.filter-bar{
-	background-color: #173448 !important;
+.filter-bar {
+  background-color: #173448 !important;
 }
 
 .private .mini-repo-list-item {
-    background-color: rgb(21, 35, 45) !important;
+  background-color: #15232D !important;
 }
 
 /*for repo pages*/
-.repohead span.fork-flag, .repohead span.mirror-flag{
-	color: #00E676;
-}
-.pagehead{
-	border-bottom: 1px solid #2C3A44 !important;
+.repohead span.fork-flag, .repohead span.mirror-flag {
+  color: #00E676;
 }
 
-.social-count{
-	background-color: #15232d !important;
+.pagehead {
+  border-bottom: 1px solid #2C3A44 !important;
+}
+
+.social-count {
+  background-color: #15232d !important;
 }
 
 .repohead.experiment-repo-nav {
-	background-color: #173448 !important;
+  background-color: #173448 !important;
 }
 
-.reponav-item{
-	color: rgba(255, 255, 255, 0.68) !important; 
+.reponav-item {
+  color: rgba(230, 222, 222, 0.8) !important;
 }
 
 .reponav-item.selected {
-    background-color: #2C3A44 !important;
-    border-color: #ffc600 !important;
-    color: #fff !important;
+  background-color: #2C3A44 !important;
+  border-color: #ffc600 !important;
+  color: #fff !important;
 }
 
-.text-gray-dark.mb-2{
-    color: #ffc600 !important;
+.text-gray-dark.mb-2 {
+  color: #ffc600 !important;
 }
 
-.text-emphasized{
-	color: #ffc600 !important
+.text-emphasized {
+  color: #ffc600 !important;
 }
 
-.repository-lang-stats ol.repository-lang-stats-numbers li .lang{
-	color: #13abdc !important;
+.repository-lang-stats ol.repository-lang-stats-numbers li .lang {
+  color: #13abdc !important;
 }
 
 /*under code tab*/
-.branch-infobar{
-	color: #fff !important;
-	background-color: #173448 !important;
+.branch-infobar {
+  color: #fff !important;
+  background-color: #173448 !important;
 }
 
-.commit-tease{
-	background-color: #173448 !important;
+.commit-tease {
+  background-color: #173448 !important;
 }
 
-.commit-author-section{
-	color: #fff !important;
+.commit-author-section {
+  color: #fff !important;
 }
 
-table.files{
-	background: #173448 !important; 
+table.files {
+  background: #173448 !important;
 }
 
 table.files tr.navigation-focus td {
-    background: #15232D !important;;
+  background: #15232D !important;
 }
 
-.commit-tease-contributors{
-	background-color: transparent !important;
+.commit-tease-contributors {
+  background-color: transparent !important;
 }
 
-.file-header{
-	background-color: transparent !important;
+.file-header {
+  background-color: transparent !important;
 }
 
-.readme .markdown-body, .readme .plain{
-	background: #173448 !important;
+.readme .markdown-body, .readme .plain {
+  background: #173448 !important;
 }
 
-.table-list-header{
-	background: #15232D !important;
+.table-list-header {
+  background: #15232D !important;
 }
 
-.table-list-header-toggle .select-menu-button:hover, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected:hover{
-	color: rgba(255, 255, 255, 0.92) !important;
+.table-list-header-toggle .select-menu-button:hover, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected:hover {
+  color: rgba(230, 222, 222, 0.8) !important;
 }
 
-.select-menu-header, .select-menu-divider{
-	background: #15232D !important;
+.select-menu-header, .select-menu-divider {
+  background: #15232D !important;
 }
 
 /*left panel in settings*/
-.menu{
-	background: #15232D !important;
+.menu {
+  background: #15232D !important;
 }
 
-.menu-heading{
-	background: #15232D !important;
+.menu-heading {
+  background: #15232D !important;
 }
 
-.menu-item{
-	text-shadow: none !important;
+.menu-item {
+  text-shadow: none !important;
 }
 
 /*for profile page*/
-.blankslate{
-	background: #173448 !important;
+.blankslate {
+  background: #173448 !important;
 }
 
-.user-profile-nav{
-	background: #0b1a25 !important;
-	border-bottom: transparent !important;
+.user-profile-nav {
+  background: #0b1a25 !important;
+  border-bottom: transparent !important;
 }
 
-.text-gray{
-	color: rgba(255, 255, 255, 0.77) !important;
-}
-.user-profile-bio{
-	color: rgba(255, 255, 255, 0.77) !important;
+.text-gray {
+  color: rgba(255, 255, 255, 0.77) !important;
 }
 
-.muted-link{
-	color: rgba(255, 255, 255, 0.77) !important;
+.user-profile-bio {
+  color: rgba(255, 255, 255, 0.77) !important;
 }
 
-.user-profile-sticky-bar::after{
-	background: #0b1a25 !important;
+.muted-link {
+  color: rgba(255, 255, 255, 0.77) !important;
+}
+
+.user-profile-sticky-bar::after {
+  background: #0b1a25 !important;
 }
 
 /*.for dropdown menu*/
-.dropdown-menu{
-	background: #173448 !important;
+.dropdown-menu {
+  background: #173448 !important;
 }
 
 /*for popup*/
-.facebox-popup{
-	background: #173448 !important;
+.facebox-popup {
+  background: #173448 !important;
 }
 
 /*for buttons*/
 .btn {
-	background: #15232D !important;
+  background: #15232D !important;
 }
 
 /*for graph section*/
-.tint-box{
-    background: rgba(6, 20, 33, 0.58) !important;
+.tint-box {
+  background: rgba(6, 20, 33, 0.58) !important;
 }
-.capped-card-content{
-    background: rgba(6, 20, 33, 0.58) !important;
+
+.capped-card-content {
+  background: rgba(6, 20, 33, 0.58) !important;
+}
+
+/*for timeline in profile page*/
+.profile-timeline .profile-timeline-month-heading {
+  background: #15232D !important;
+  border: 1px solid #00E676 !important;
+}
+
+.profile-timeline .discussion-item-icon {
+  background: #00E676 !important;
+  border-color: #00E676 !important;
+}
+
+.profile-timeline-year-list.bg-white {
+  background: #173448 !important;
 }
 
 /*for readme*/
-.markdown-body .highlight pre, .markdown-body pre{
-	background: #15232D !important;
+.markdown-body .highlight pre, .markdown-body pre {
+  background: #15232D !important;
 }
 
-.markdown-body table tr, .markdown-body table tr:nth-child(2n){
-	background: #173448 !important;
+.markdown-body table tr, .markdown-body table tr:nth-child(2n) {
+  background: #173448 !important;
 }
 
-.type-javascript{
-	background: #15232D !important;
+.type-javascript {
+  background: #15232D !important;
 }
 
 /*this for javascript*/
-.pl-smi, .pl-s .pl-s1{
-	color: #ffc600 !important;
+.pl-smi, .pl-s .pl-s1 {
+  color: #ffc600 !important;
 }
 
-.pl-s, .pl-pds, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sre, .pl-sr .pl-sra{
-	color: #00E676 !important;
+.pl-s, .pl-pds, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sre, .pl-sr .pl-sra {
+  color: #00E676 !important;
 }
 
-.pl-k{
-	color: #FB94FF !important;
+.pl-k {
+  color: #FB94FF !important;
 }
 
 .pl-e, .pl-en {
-    color: #c3cacf !important;
+  color: #c3cacf !important;
 }
 
-.blob-code-inner{
-	color: #c3cacf !important;
+.blob-code-inner {
+  color: #c3cacf !important;
 }
-
-
-
-
-
-
