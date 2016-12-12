@@ -1,0 +1,195 @@
+@import './colors.scss';
+
+body{
+	background:$mainblue !important;
+}
+
+// for nav
+#yt-masthead-container{
+	background:$mainblue !important;
+}
+
+#masthead-appbar{
+	background:$mainblue !important;
+}
+
+a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+// for profile dropdown
+.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border{
+	background:$mainblue !important;
+}
+
+.yt-masthead-account-picker-option{
+	background:$mainblue !important;
+}
+
+.yt-masthead-picker-footer{
+	background:$mainblue !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.71) !important;
+}
+
+.yt-masthead-picker-name{
+	color: #fff !important;
+}
+
+// sidenav
+#appbar-guide-menu, .guide-flyout{
+	background:$mainblue !important;
+}
+
+.guide-item{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+//for home page
+.yt-ui-ellipsis{
+	background:$mainblue !important;
+}
+
+.yt-lockup-title a, .yt-lockup:hover a, .yt-lockup:hover .yt-lockup-meta a, .yt-lockup:hover .yt-lockup-description a{
+	color: #fff !important;
+}
+
+.yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a, .yt-lockup .yt-lockup-byline a{
+	color:$yellow !important;
+}
+
+.yt-lockup{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+// for video description
+.yt-card{
+	background: $mainblue !important;
+    border: 1px solid #fff!important;
+    border-radius: 4px !important;
+    color: #fff !important;
+}
+
+.yt-uix-button{
+	color: #fff !important;
+}
+
+#watch-description{
+	color: #fff !important;
+}
+
+.yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus{
+	background:$darkblue !important;
+}
+
+.exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count, .yt-uix-button-subscribed-branded+.yt-uix-subscription-preferences-button, .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus{
+	background: $darkblue !important;
+}
+
+#action-panel-details a{
+	color:$yellow !important;
+}
+
+.yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus,.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus,.yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal{
+	border:1px solid $green !important;
+}
+
+//recommendations
+.video-list-item .title{
+	color: #fff !important;
+}
+
+#watch7-sidebar .watch-sidebar-head{
+	color: #fff !important;
+}
+
+#watch-header .yt-user-info a{
+	color: #d4cfcf !important;
+}
+
+.yt-badge{
+	color: #fff !important;
+}
+
+.attribution{
+	color:$yellow !important;
+}
+
+.view-count{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+// for comments
+.comment-section-header-renderer{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus{
+	background:$mainblue !important;
+}
+
+.yt-ui-menu-content{
+	background:$mainblue !important;
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+.yt-ui-menu-item{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover{
+	background:$darkblue !important;
+	color: #fff !important; 
+}
+
+// for footer
+body #footer-container{
+	background:$mainblue !important;
+}
+
+#footer-links-primary a{
+	color: #fff !important;
+}
+
+#yt-picker-country-footer, #yt-picker-language-footer, #yt-picker-safetymode-footer{
+	background:$mainblue !important;
+}
+
+//channel page
+.channel-header .branded-page-header-title .branded-page-header-title-link{
+	color:$yellow !important;
+}
+
+.branded-page-module-title{
+	color:$green !important
+}
+
+//channel playlist page
+#pl-header .pl-header-title{
+	color: #fff !important;
+}
+.pl-video-title-link{
+	color: #fff !important;
+}
+
+//channel about page
+.about-metadata-container{
+	color: rgba(230, 222, 222, 0.8) !important;
+}
+
+.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus{
+	background:$darkblue !important;
+}
+
+//for notification dropdown
+#yt-masthead-notifications-title{
+	color: #fff !important;
+}
+
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis{
+	background:$mainblue !important;
+}
+
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis{
+	background:$darkblue !important;
+}
+

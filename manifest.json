@@ -36,20 +36,20 @@
     },
     {
       "matches": [
-        "https://mail.google.com/*"
+        "https://www.google.com/*"
       ],
       "css": [
-        "src/inject/gmail.css"
+        "src/inject/google.css"
       ]
     },
-    // {
-    //   "matches": [
-    //     "https://github.com/*"
-    //   ],
-    //   "css": [
-    //     "src/inject/github.css"
-    //   ]
-    // },
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "css": [
+        "src/inject/github.css"
+      ]
+    },
     {
       "matches": [
         "https://medium.com/*"
