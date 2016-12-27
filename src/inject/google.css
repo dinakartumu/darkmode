@@ -53,3 +53,7 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
 ._Jw.kp-blk .mod, ._kTi .mod, ._Ajf, ._TCn, ._mMg, ._UCn, ._zjf, ._Jjg, ._gdf {
   color: rgba(230, 222, 222, 0.8) !important;
 }
+
+.mod {
+  color: white !important;
+}

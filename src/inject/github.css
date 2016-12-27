@@ -28,6 +28,14 @@ a {
   color: rgba(255, 255, 255, 0.92) !important;
 }
 
+.news div.message, .news li blockquote, .news .alert .simple .title {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.ajax-pagination-form .ajax-pagination-btn {
+  background: #15232D !important;
+}
+
 /*right panel in home page*/
 .github-jobs-promotion p {
   background-image: -webkit-linear-gradient(#173448, #173448) !important;
@@ -55,6 +63,10 @@ a {
 }
 
 /*for repo pages*/
+#js-repo-pjax-container .text-gray {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
 .repohead span.fork-flag, .repohead span.mirror-flag {
   color: #00E676;
 }
@@ -72,7 +84,7 @@ a {
 }
 
 .reponav-item {
-  color: rgba(230, 222, 222, 0.8) !important;
+  color: rgba(230, 222, 222, 0.85) !important;
 }
 
 .reponav-item.selected {
@@ -93,7 +105,29 @@ a {
   color: #13abdc !important;
 }
 
+.select-menu-header .select-menu-title, .select-menu-divider {
+  color: #ffc600 !important;
+}
+
+.select-menu-item {
+  background: #15232D !important;
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.select-menu-item.navigation-focus, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus .description-inline {
+  background: #173448 !important;
+  color: #fff !important;
+}
+
+.repository-meta-content .text-gray-dark {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
 /*under code tab*/
+.final-path {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
 .branch-infobar {
   color: #fff !important;
   background-color: #173448 !important;
@@ -132,11 +166,19 @@ table.files tr.navigation-focus td {
 }
 
 .table-list-header-toggle .select-menu-button:hover, .table-list-header-toggle .select-menu-button.selected, .table-list-header-toggle .select-menu-button.selected:hover {
-  color: rgba(230, 222, 222, 0.8) !important;
+  color: rgba(230, 222, 222, 0.85) !important;
 }
 
 .select-menu-header, .select-menu-divider {
   background: #15232D !important;
+}
+
+.select-menu-filters {
+  background: #15232D !important;
+}
+
+.select-menu-tabs a.selected, .select-menu-tabs .select-menu-tab-nav.selected {
+  background: #2C3A44 !important;
 }
 
 /*left panel in settings*/
@@ -226,6 +268,10 @@ table.files tr.navigation-focus td {
   background: #173448 !important;
 }
 
+.markdown-body code {
+  color: #ffc600 !important;
+}
+
 .type-javascript {
   background: #15232D !important;
 }
@@ -249,4 +295,132 @@ table.files tr.navigation-focus td {
 
 .blob-code-inner {
   color: #c3cacf !important;
+}
+
+.blob-num {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.issues-listing .timeline-comment-header, .issues-listing .discussion-timeline-actions, .issues-listing table, .issues-listing .comment-reactions.has-reactions {
+  background: #173448 !important;
+}
+
+.issues-listing .timeline-comment-wrapper {
+  border-color: transparent !important;
+}
+
+.issues-listing .new-discussion-timeline .closed-banner, .issues-listing .closed-banner {
+  height: 0 !important;
+  border-bottom: 15px solid #173448 !important;
+}
+
+.issues-listing .timeline-comment, .issues-listing .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .issues-listing .timeline-new-comment .comment-form-head {
+  background: #15232D !important;
+}
+
+.issues-listing .navigation-focus {
+  background: #15232D !important;
+}
+
+.gh-header-meta, .css-truncate, .discussion-item-header {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.discussion-sidebar-heading {
+  color: #fff !important;
+}
+
+.thread-subscription-status {
+  background: #15232D !important;
+}
+
+.labelstyle-fbca04, .linked-labelstyle-fbca04 {
+  color: black !important;
+}
+
+.labelstyle-e7e7e7, .linked-labelstyle-e7e7e7 {
+  background: #00E676 !important;
+  color: #fff !important;
+}
+
+.pagination .gap, .pagination .disabled, .pagination .gap:hover, .pagination .disabled:hover, .pagination a, .pagination span, .pagination em {
+  background: #173448 !important;
+}
+
+.pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus {
+  background: #15232D !important;
+}
+
+.pagination .current, .pagination .current:hover {
+  border-color: #00E676 !important;
+}
+
+.commit-ref {
+  background: #15232D !important;
+}
+
+.tabnav-pr .tabnav-tab.selected, .tabnav-tab.selected {
+  background: #2C3A44 !important;
+  color: #fff !important;
+}
+
+.branch-action-body {
+  background: #173448 !important;
+}
+
+.status-meta, .tabnav-tab {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.boxed-group-inner {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.simple-stacked-bar {
+  background: #15232D !important;
+}
+
+.summary-stats li .num {
+  color: #fff !important;
+}
+
+.summary-stats li a:hover {
+  background: #15232D !important;
+}
+
+.orghead {
+  background: #173448 !important;
+  color: #fff !important;
+}
+
+.org-name {
+  color: #ffc600 !important;
+}
+
+#js-pjax-container .text-gray, .py-1 {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+#js-pjax-container .muted-link {
+  color: #00E676 !important;
+}
+
+#js-pjax-container .muted-link:hover {
+  color: #FF9D00 !important;
+}
+
+.pagehead-tabs-item.selected {
+  background: #2C3A44 !important;
+}
+
+.simple-box {
+  background: #173448 !important;
+}
+
+.simple-box h4 {
+  color: #fff !important;
+}
+
+.simple-box .member-fullname {
+  color: rgba(230, 222, 222, 0.85) !important;
 }

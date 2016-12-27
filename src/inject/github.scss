@@ -30,6 +30,15 @@ a{
 	color: rgba(255, 255, 255, 0.92) !important;
 }
 
+// timeline in homepage
+.news div.message, .news li blockquote,.news .alert .simple .title{
+	color:$lightwhite !important;
+}
+
+.ajax-pagination-form .ajax-pagination-btn{
+	background:$darkblue !important;
+}
+
 /*right panel in home page*/
 .github-jobs-promotion p{
 	background-image: -webkit-linear-gradient($mainblue, $mainblue) !important;
@@ -57,6 +66,9 @@ a{
 }
 
 /*for repo pages*/
+#js-repo-pjax-container .text-gray{
+	color:$lightwhite !important;
+}
 .repohead span.fork-flag, .repohead span.mirror-flag{
 	color: #00E676;
 }
@@ -94,7 +106,31 @@ a{
 	color: #13abdc !important;
 }
 
+// for dropdown for watch buttons
+.select-menu-header .select-menu-title, .select-menu-divider{
+	color:$yellow !important;
+}
+.select-menu-item{
+	background:$darkblue !important;
+	color:$lightwhite !important;
+}
+
+.select-menu-item.navigation-focus, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus .description-inline{
+	background:$mainblue !important;
+	color:$white !important;
+}
+
+.repository-meta-content{
+	.text-gray-dark{
+		color: $lightwhite !important;
+	}
+}
+
 /*under code tab*/
+.final-path{
+	color: $lightwhite !important;
+}
+
 .branch-infobar{
 	color: #fff !important;
 	background-color: $mainblue !important;
@@ -138,6 +174,14 @@ table.files tr.navigation-focus td {
 
 .select-menu-header, .select-menu-divider{
 	background: $darkblue !important;
+}
+
+.select-menu-filters{
+	background:$darkblue !important;
+}
+
+.select-menu-tabs a.selected, .select-menu-tabs .select-menu-tab-nav.selected{
+	background: #2C3A44 !important;
 }
 
 /*left panel in settings*/
@@ -226,6 +270,10 @@ table.files tr.navigation-focus td {
 	background: $mainblue !important;
 }
 
+.markdown-body code{
+	color:$yellow !important;
+}
+
 .type-javascript{
 	background: $darkblue !important;
 }
@@ -249,6 +297,140 @@ table.files tr.navigation-focus td {
 
 .blob-code-inner{
 	color: #c3cacf !important;
+}
+
+.blob-num{
+	color:$lightwhite !important;
+}
+
+// for issues tab
+.issues-listing{
+	.timeline-comment-header,.discussion-timeline-actions,table,.comment-reactions.has-reactions{
+		background: $mainblue !important;
+	}
+
+	.timeline-comment-wrapper{
+		border-color:transparent !important
+	}
+
+	.new-discussion-timeline .closed-banner,.closed-banner{
+		height: 0 !important;
+		border-bottom: 15px solid $mainblue !important;
+	}
+
+	.timeline-comment, .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .timeline-new-comment .comment-form-head{
+		background: $darkblue !important;
+	}
+	
+	.navigation-focus{
+		background: $darkblue !important;
+	}
+}
+
+// for each issue details
+.gh-header-meta,.css-truncate,.discussion-item-header{
+	color:$lightwhite !important;
+}
+
+.discussion-sidebar-heading{
+	color:$white !important;
+}
+
+.thread-subscription-status{
+	background:$darkblue !important;
+}
+
+// for pull requests
+.labelstyle-fbca04, .linked-labelstyle-fbca04{
+	color:black !important;
+}
+
+.labelstyle-e7e7e7, .linked-labelstyle-e7e7e7{
+	background:$green !important;
+	color:$white !important;
+}
+
+.pagination .gap, .pagination .disabled, .pagination .gap:hover, .pagination .disabled:hover,.pagination a, .pagination span, .pagination em{
+	background:$mainblue !important;
+}
+
+.pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus{
+	background:$darkblue !important;
+}
+
+.pagination .current, .pagination .current:hover{
+	border-color:$green !important;
+}
+
+// for each pull request details
+.commit-ref{
+	background:$darkblue !important;
+}
+.tabnav-pr .tabnav-tab.selected,.tabnav-tab.selected{
+	background: #2C3A44 !important;
+	color:$white !important;
+}
+
+.branch-action-body{
+	background: $mainblue !important;
+}
+
+.status-meta,.tabnav-tab{
+	color:$lightwhite !important;
+}
+
+//for pulse tab
+.boxed-group-inner{
+	color:$lightwhite !important;
+}
+.simple-stacked-bar{
+	background:$darkblue !important;
+}
+
+.summary-stats li .num{
+	color:$white !important;
+}
+
+.summary-stats li a:hover{
+	background:$darkblue !important;
+}
+
+// for organization page
+.orghead{
+	background:$mainblue !important;
+	color:$white !important;
+}
+
+.org-name{
+	color:$yellow !important;
+}
+
+ #js-pjax-container .text-gray,.py-1{
+	color:$lightwhite !important;
+}
+
+ #js-pjax-container .muted-link{
+	color:$green !important;
+}
+
+#js-pjax-container .muted-link:hover{
+	color: $orange !important;
+}
+
+.pagehead-tabs-item.selected{
+	background: #2C3A44 !important;
+}
+
+.simple-box{
+	background:$mainblue !important;
+
+	h4{
+		color: $white !important;
+	}
+
+	.member-fullname{
+		color: $lightwhite !important;
+	}
 }
 
 
