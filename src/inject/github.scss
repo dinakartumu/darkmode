@@ -65,6 +65,13 @@ a{
     background-color: $darkblue !important;
 }
 
+#repo_listing .repo{
+	color:$yellow !important;
+}
+
+#repo_listing .owner{
+	color:$orange !important;
+}
 /*for repo pages*/
 #js-repo-pjax-container .text-gray{
 	color:$lightwhite !important;
