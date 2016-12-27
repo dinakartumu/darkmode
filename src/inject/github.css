@@ -245,11 +245,24 @@ table.files tr.navigation-focus td {
 
 /*for graph section*/
 .tint-box {
-  background: rgba(6, 20, 33, 0.58) !important;
+  background: #15232D !important;
 }
 
 .capped-card-content {
-  background: rgba(6, 20, 33, 0.58) !important;
+  background: #15232D !important;
+}
+
+.graph-canvas .activity {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.summary-stats .clones, .summary-stats li .num {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.flash {
+  background: #15232D !important;
+  color: rgba(230, 222, 222, 0.85) !important;
 }
 
 /*for timeline in profile page*/
@@ -380,6 +393,18 @@ table.files tr.navigation-focus td {
   color: rgba(230, 222, 222, 0.85) !important;
 }
 
+.merge-status-item {
+  background: #15232D !important;
+}
+
+.issues-listing .discussion-item-header .label-color a {
+  color: black !important;
+}
+
+.issues-listing .link-gray-dark {
+  color: #4078c0 !important;
+}
+
 .boxed-group-inner {
   color: rgba(230, 222, 222, 0.85) !important;
 }
@@ -394,6 +419,14 @@ table.files tr.navigation-focus td {
 
 .summary-stats li a:hover {
   background: #15232D !important;
+}
+
+.diffstat-summary {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.diffstat-summary strong {
+  color: #fff !important;
 }
 
 .orghead {
