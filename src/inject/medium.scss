@@ -1,12 +1,16 @@
 @import './colors.scss';
 
+html{
+	background-color: $mainblue !important;
+}
+
 body{
 	background-color: $mainblue !important;
 	color: #fff !important;
 }
 
 a{
-	color: #ed7056 !important;
+	color: $yellow !important;
 }
 
 /*for headers*/
@@ -25,15 +29,24 @@ a{
 }
 
 .cardChromeless{
-    background: rgba(15, 11, 6,0.1) !important;
+    background: $mainblue !important;
+    border:1px solid #fff !important;
+
+    p{
+    	color: $lightwhite !important;
+    }
+
+    .label, .label--radio{
+    	color: #fff !important;
+    }
 }
 
 .graf--coverTitle, .graf--h2, .graf--h3{
-	color: #fff !important
+	color: $yellow !important
 }
 
 .graf--h4{
-	color: #BDBDBD !important;
+	color: $yellow !important;
 }
 
 .postMetaInline{
@@ -58,7 +71,7 @@ a{
 }
 
 h3.metabar-logo{
-	color: #ed7056 !important;
+	color: $yellow !important;
 }
 .postArticle{
 	background-color: $mainblue !important;
@@ -121,6 +134,20 @@ hr.section-divider:before{
 	color: #fff !important;
 }
 
+footer .js-responsesWrapper{
+	background-color: $mainblue !important;
+	border-color:#fff;
+}
+
+.responsesStream .cardChromeless{
+	background-color: $mainblue !important;
+	border-color:#fff;
+
+	p, .readingTime{
+	color:$lightwhite !important;
+	}
+}
+
 /*for post actioncard*/
 .postActionsBar-content{
 	background-color: $mainblue !important;
@@ -131,7 +158,7 @@ hr.section-divider:before{
 }
 
 .readNextPromo-postTitle{
-	color: #ed7056 !important
+	color: $yellow !important
 }
 
 //for share
@@ -150,6 +177,11 @@ hr.section-divider:before{
 
 .col .u-textColorDarkest{
 	color:$yellow !important;
+}
+
+// for popover on images
+.popover{
+	background:$mainblue !important;
 }
 
 

@@ -52,6 +52,14 @@
     },
     {
       "matches": [
+        "https://gist.github.com/*"
+      ],
+      "css": [
+        "src/inject/github.css"
+      ]
+    },
+    {
+      "matches": [
         "https://medium.com/*"
       ],
       "css": [

@@ -474,6 +474,27 @@ table.files tr.navigation-focus td {
 	}
 }
 
+// for gist
+#gist-pjax-container{
+	.timeline-comment,.timeline-comment-header,.discussion-timeline-actions,.new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav{
+		background:$mainblue !important;
+	}
+	.timeline-comment-header{
+		color: $lightwhite !important;
+	}
+	.timeline-comment-wrapper{
+		border:none;
+	}
+
+	// for revisions tab
+	// .blob-code-hunk, .blob-code-expandable{
+	// 	background:$darkblue !important;
+	// }
+
+	.link-gray-dark{
+		color: $linkblue !important;
+	}
+}
 
 
 

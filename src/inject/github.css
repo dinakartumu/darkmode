@@ -465,3 +465,19 @@ table.files tr.navigation-focus td {
 .simple-box .member-fullname {
   color: rgba(230, 222, 222, 0.85) !important;
 }
+
+#gist-pjax-container .timeline-comment, #gist-pjax-container .timeline-comment-header, #gist-pjax-container .discussion-timeline-actions, #gist-pjax-container .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+  background: #173448 !important;
+}
+
+#gist-pjax-container .timeline-comment-header {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+#gist-pjax-container .timeline-comment-wrapper {
+  border: none;
+}
+
+#gist-pjax-container .link-gray-dark {
+  color: #4078c0 !important;
+}

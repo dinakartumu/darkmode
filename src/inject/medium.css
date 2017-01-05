@@ -1,10 +1,14 @@
+html {
+  background-color: #173448 !important;
+}
+
 body {
   background-color: #173448 !important;
   color: #fff !important;
 }
 
 a {
-  color: #ed7056 !important;
+  color: #ffc600 !important;
 }
 
 /*for headers*/
@@ -23,15 +27,24 @@ a {
 }
 
 .cardChromeless {
-  background: rgba(15, 11, 6, 0.1) !important;
+  background: #173448 !important;
+  border: 1px solid #fff !important;
 }
 
-.graf--coverTitle, .graf--h2, .graf--h3 {
+.cardChromeless p {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.cardChromeless .label, .cardChromeless .label--radio {
   color: #fff !important;
 }
 
+.graf--coverTitle, .graf--h2, .graf--h3 {
+  color: #ffc600 !important;
+}
+
 .graf--h4 {
-  color: #BDBDBD !important;
+  color: #ffc600 !important;
 }
 
 .postMetaInline {
@@ -56,7 +69,7 @@ a {
 }
 
 h3.metabar-logo {
-  color: #ed7056 !important;
+  color: #ffc600 !important;
 }
 
 .postArticle {
@@ -117,6 +130,20 @@ hr.section-divider:before {
   color: #fff !important;
 }
 
+footer .js-responsesWrapper {
+  background-color: #173448 !important;
+  border-color: #fff;
+}
+
+.responsesStream .cardChromeless {
+  background-color: #173448 !important;
+  border-color: #fff;
+}
+
+.responsesStream .cardChromeless p, .responsesStream .cardChromeless .readingTime {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
 /*for post actioncard*/
 .postActionsBar-content {
   background-color: #173448 !important;
@@ -127,7 +154,7 @@ hr.section-divider:before {
 }
 
 .readNextPromo-postTitle {
-  color: #ed7056 !important;
+  color: #ffc600 !important;
 }
 
 .u-uiTextSemibold, .u-textAlignCenter, .u-maxWidth1000 .u-textColorNormal, .u-fontSizeSmallest, .u-textUppercase {
@@ -144,4 +171,8 @@ hr.section-divider:before {
 
 .col .u-textColorDarkest {
   color: #ffc600 !important;
+}
+
+.popover {
+  background: #173448 !important;
 }
