@@ -176,3 +176,27 @@ footer .js-responsesWrapper {
 .popover {
   background: #173448 !important;
 }
+
+.metabar .popover, .popover-inner {
+  background-color: #15232D !important;
+}
+
+.popover {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.site-main {
+  background: #173448 !important;
+}
+
+.site-main .screenContent, .site-main .u-backgroundWhite {
+  background-color: #173448 !important;
+}
+
+.site-main .u-backgroundGrayLightest {
+  background-color: #15232D !important;
+}
+
+.site-main .hero-description, .site-main .label {
+  color: rgba(230, 222, 222, 0.85);
+}

@@ -184,6 +184,34 @@ footer .js-responsesWrapper{
 	background:$mainblue !important;
 }
 
+// for dropdown in menu
+.metabar .popover,.popover-inner{
+	background-color: $darkblue !important;
+}
+
+.popover{
+	color: $lightwhite !important;
+}
+
+// for profile page
+.site-main{
+	background: $mainblue !important;
+	
+	.screenContent,.u-backgroundWhite{
+		background-color: $mainblue !important;
+	}
+
+	.u-backgroundGrayLightest{
+		background-color: $darkblue !important;
+	}
+
+	.hero-description,.label{
+		color: $lightwhite;
+	}
+}
+
+
+
 
 
 
