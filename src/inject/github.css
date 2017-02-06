@@ -193,6 +193,14 @@ table.files tr.navigation-focus td {
   background: #2C3A44 !important;
 }
 
+.commits-list-item.navigation-focus {
+  background: #15232D !important;
+}
+
+.commit-sha {
+  background: #15232D !important;
+}
+
 /*left panel in settings*/
 .menu {
   background: #15232D !important;
@@ -256,6 +264,10 @@ table.files tr.navigation-focus td {
   background: #15232D !important;
 }
 
+.graph-filter .info {
+  color: rgba(230, 222, 222, 0.85) !important;
+}
+
 .graph-canvas .activity {
   color: rgba(230, 222, 222, 0.85) !important;
 }
@@ -267,6 +279,22 @@ table.files tr.navigation-focus td {
 .flash {
   background: #15232D !important;
   color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.graphs .day-name {
+  fill: rgba(230, 222, 222, 0.85) !important;
+}
+
+.graphs circle.day {
+  fill: rgba(230, 222, 222, 0.85) !important;
+}
+
+.graphs .label {
+  fill: #fff !important;
+}
+
+#dependents .bg-gray-light, #dependents .bg-white {
+  background-color: #173448 !important;
 }
 
 /*for timeline in profile page*/
@@ -326,24 +354,24 @@ table.files tr.navigation-focus td {
   color: rgba(230, 222, 222, 0.85) !important;
 }
 
-.issues-listing .timeline-comment-header, .issues-listing .discussion-timeline-actions, .issues-listing table, .issues-listing .comment-reactions.has-reactions {
+.issues-listing .timeline-comment-header, .issues-listing .discussion-timeline-actions, .issues-listing table, .issues-listing .comment-reactions.has-reactions, .repository-content .timeline-comment-header, .repository-content .discussion-timeline-actions, .repository-content table, .repository-content .comment-reactions.has-reactions {
   background: #173448 !important;
 }
 
-.issues-listing .timeline-comment-wrapper {
+.issues-listing .timeline-comment-wrapper, .repository-content .timeline-comment-wrapper {
   border-color: transparent !important;
 }
 
-.issues-listing .new-discussion-timeline .closed-banner, .issues-listing .closed-banner {
+.issues-listing .new-discussion-timeline .closed-banner, .issues-listing .closed-banner, .repository-content .new-discussion-timeline .closed-banner, .repository-content .closed-banner {
   height: 0 !important;
   border-bottom: 15px solid #173448 !important;
 }
 
-.issues-listing .timeline-comment, .issues-listing .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .issues-listing .timeline-new-comment .comment-form-head {
+.issues-listing .timeline-comment, .issues-listing .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .issues-listing .timeline-new-comment .comment-form-head, .repository-content .timeline-comment, .repository-content .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .repository-content .timeline-new-comment .comment-form-head {
   background: #15232D !important;
 }
 
-.issues-listing .navigation-focus {
+.issues-listing .navigation-focus, .repository-content .navigation-focus {
   background: #15232D !important;
 }
 

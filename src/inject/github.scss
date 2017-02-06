@@ -195,6 +195,14 @@ table.files tr.navigation-focus td {
 	background: #2C3A44 !important;
 }
 
+.commits-list-item.navigation-focus{
+	background: $darkblue !important;
+}
+
+.commit-sha{
+	background: $darkblue !important;
+}
+
 /*left panel in settings*/
 .menu{
 	background: $darkblue !important;
@@ -255,7 +263,13 @@ table.files tr.navigation-focus td {
 .capped-card-content{
     background: $darkblue !important;
 }
-	// for traffic tab under graph
+
+// for contribution tab in graph
+.graph-filter .info{
+	color: $lightwhite !important;
+}
+
+// for traffic tab under graph
 .graph-canvas .activity{
 	color: $lightwhite !important;
 }
@@ -267,6 +281,28 @@ table.files tr.navigation-focus td {
 .flash{
 	background: $darkblue !important;
 	color: $lightwhite !important;
+}
+
+// for punch card tab in graphs
+.graphs{
+	.day-name{
+		fill: $lightwhite !important;
+	}
+
+	circle.day{
+		fill: $lightwhite !important;
+	}
+
+	.label{
+		fill:#fff !important;
+	}
+}
+
+// for dependenst tab in graphs
+#dependents{
+	.bg-gray-light, .bg-white{
+		background-color: $mainblue !important;
+	}
 }
 
 
@@ -329,7 +365,7 @@ table.files tr.navigation-focus td {
 }
 
 // for issues tab
-.issues-listing{
+.issues-listing, .repository-content{
 	.timeline-comment-header,.discussion-timeline-actions,table,.comment-reactions.has-reactions{
 		background: $mainblue !important;
 	}
@@ -417,7 +453,6 @@ table.files tr.navigation-focus td {
 }
 
 // for files changed tab in pull request
-
 .pr-toolbar{
 	background-color: $mainblue !important;
 }
