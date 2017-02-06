@@ -30,6 +30,10 @@ a{
 	color: rgba(255, 255, 255, 0.92) !important;
 }
 
+.topic-tag{
+	background-color:$darkblue !important;
+}
+
 // timeline in homepage
 .news div.message, .news li blockquote,.news .alert .simple .title{
 	color:$lightwhite !important;
@@ -412,6 +416,60 @@ table.files tr.navigation-focus td {
 	color:#4078c0 !important;
 }
 
+// for files changed tab in pull request
+
+.pr-toolbar{
+	background-color: $mainblue !important;
+}
+
+.diffbar{
+	background-color: $mainblue !important;
+}
+
+.btn-link.muted-link{
+	color:#fff !important;
+}
+
+.full-commit{
+	background-color: $mainblue !important;
+	// color:#fff !important;
+
+	p.commit-title{
+		color:#fff !important;
+	}
+
+	.commit-meta{
+		background-color: $mainblue !important;
+	}
+
+}
+
+.commit-desc pre{
+	color:#fff !important;
+}
+
+.blob-code-deletion{
+	background-color: $mainblue !important;
+}
+
+.blob-num-deletion{
+	background-color: $red !important;
+	color:#fff !important;
+}
+
+.blob-num-addition{
+	background-color: $green !important;
+	color:#fff !important;
+}
+
+.blob-code-addition{
+	background-color: $mainblue !important;
+}
+
+.file-diff-split .empty-cell, .blob-code-hunk, .blob-code-expandable, .blob-num-hunk, .blob-num-expandable{
+	background-color:$darkblue !important;
+}
+
 //for pulse tab
 .boxed-group-inner{
 	color:$lightwhite !important;
@@ -472,6 +530,17 @@ table.files tr.navigation-focus td {
 	.member-fullname{
 		color: $lightwhite !important;
 	}
+}
+
+// for search page
+.codesearch-aside{
+	.menu-item.selected{
+		background-color: $mainblue !important;
+	}
+}
+
+.codesearch-aside .filter-list li span.bar{
+	background: $green !important;
 }
 
 // for gist

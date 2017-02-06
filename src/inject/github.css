@@ -28,6 +28,10 @@ a {
   color: rgba(255, 255, 255, 0.92) !important;
 }
 
+.topic-tag {
+  background-color: #15232D !important;
+}
+
 .news div.message, .news li blockquote, .news .alert .simple .title {
   color: rgba(230, 222, 222, 0.85) !important;
 }
@@ -405,6 +409,56 @@ table.files tr.navigation-focus td {
   color: #4078c0 !important;
 }
 
+.pr-toolbar {
+  background-color: #173448 !important;
+}
+
+.diffbar {
+  background-color: #173448 !important;
+}
+
+.btn-link.muted-link {
+  color: #fff !important;
+}
+
+.full-commit {
+  background-color: #173448 !important;
+}
+
+.full-commit p.commit-title {
+  color: #fff !important;
+}
+
+.full-commit .commit-meta {
+  background-color: #173448 !important;
+}
+
+.commit-desc pre {
+  color: #fff !important;
+}
+
+.blob-code-deletion {
+  background-color: #173448 !important;
+}
+
+.blob-num-deletion {
+  background-color: #f44336 !important;
+  color: #fff !important;
+}
+
+.blob-num-addition {
+  background-color: #00E676 !important;
+  color: #fff !important;
+}
+
+.blob-code-addition {
+  background-color: #173448 !important;
+}
+
+.file-diff-split .empty-cell, .blob-code-hunk, .blob-code-expandable, .blob-num-hunk, .blob-num-expandable {
+  background-color: #15232D !important;
+}
+
 .boxed-group-inner {
   color: rgba(230, 222, 222, 0.85) !important;
 }
@@ -464,6 +518,14 @@ table.files tr.navigation-focus td {
 
 .simple-box .member-fullname {
   color: rgba(230, 222, 222, 0.85) !important;
+}
+
+.codesearch-aside .menu-item.selected {
+  background-color: #173448 !important;
+}
+
+.codesearch-aside .filter-list li span.bar {
+  background: #00E676 !important;
 }
 
 #gist-pjax-container .timeline-comment, #gist-pjax-container .timeline-comment-header, #gist-pjax-container .discussion-timeline-actions, #gist-pjax-container .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
