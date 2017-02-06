@@ -568,6 +568,35 @@ table.files tr.navigation-focus td {
   background-color: #173448 !important;
 }
 
+.site-header {
+  background-color: #173448 !important;
+}
+
+.shade-gradient {
+  background-color: #173448 !important;
+  background-image: linear-gradient(180deg, #15232D, #15232D) !important;
+}
+
+.lead {
+  color: #fff !important;
+}
+
+.steps li {
+  background-color: #15232D !important;
+}
+
+.steps .current {
+  color: #fff !important;
+}
+
+.setup-info-module {
+  background-color: #173448 !important;
+}
+
+.note {
+  color: #fff !important;
+}
+
 #gist-pjax-container .timeline-comment, #gist-pjax-container .timeline-comment-header, #gist-pjax-container .discussion-timeline-actions, #gist-pjax-container .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
   background: #173448 !important;
 }

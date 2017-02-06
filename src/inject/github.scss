@@ -599,6 +599,38 @@ table.files tr.navigation-focus td {
 	}
 }
 
+// for signup page
+.site-header{
+	background-color: $mainblue !important;
+}
+
+.shade-gradient{
+	background-color: $mainblue !important;
+	background-image: linear-gradient(180deg, $darkblue, $darkblue) !important;
+}
+
+.lead{
+	color: #fff !important;
+}
+
+.steps{
+	li{
+		background-color: $darkblue !important;
+	}
+
+	.current{
+		color: #fff !important;
+	}
+}
+
+.setup-info-module{
+	background-color: $mainblue !important;
+}
+
+.note{
+	color: #fff !important;
+}
+
 // for gist
 #gist-pjax-container{
 	.timeline-comment,.timeline-comment-header,.discussion-timeline-actions,.new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav{
