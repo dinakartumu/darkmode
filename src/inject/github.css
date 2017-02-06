@@ -245,6 +245,10 @@ table.files tr.navigation-focus td {
   background: #173448 !important;
 }
 
+.dropdown-signout {
+  color: #fff !important;
+}
+
 /*for popup*/
 .facebox-popup {
   background: #173448 !important;
@@ -554,6 +558,14 @@ table.files tr.navigation-focus td {
 
 .codesearch-aside .filter-list li span.bar {
   background: #00E676 !important;
+}
+
+.auth-form .auth-form-header {
+  color: #fff !important;
+}
+
+.auth-form .auth-form-body {
+  background-color: #173448 !important;
 }
 
 #gist-pjax-container .timeline-comment, #gist-pjax-container .timeline-comment-header, #gist-pjax-container .discussion-timeline-actions, #gist-pjax-container .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {

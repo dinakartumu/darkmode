@@ -76,13 +76,16 @@ a{
 #repo_listing .owner{
 	color:$orange !important;
 }
+
 /*for repo pages*/
 #js-repo-pjax-container .text-gray{
 	color:$lightwhite !important;
 }
+
 .repohead span.fork-flag, .repohead span.mirror-flag{
 	color: #00E676;
 }
+
 .pagehead{
 	border-bottom: 1px solid #2C3A44 !important;
 }
@@ -229,6 +232,7 @@ table.files tr.navigation-focus td {
 .text-gray{
 	color: rgba(255, 255, 255, 0.77) !important;
 }
+
 .user-profile-bio{
 	color: rgba(255, 255, 255, 0.77) !important;
 }
@@ -246,6 +250,10 @@ table.files tr.navigation-focus td {
 	background: $mainblue !important;
 }
 
+.dropdown-signout{
+	color:#fff !important;
+}
+
 /*for popup*/
 .facebox-popup{
 	background: $mainblue !important;
@@ -260,6 +268,7 @@ table.files tr.navigation-focus td {
 .tint-box{
     background: $darkblue !important;
 }
+
 .capped-card-content{
     background: $darkblue !important;
 }
@@ -308,10 +317,12 @@ table.files tr.navigation-focus td {
 
 /*for timeline in profile page*/
 .profile-timeline {
+
 	.profile-timeline-month-heading{
 		background: $darkblue !important;
 		border: 1px solid $green !important;
 	}
+
 	.discussion-item-icon{
 		background: $green !important;
 		border-color: $green !important;
@@ -427,6 +438,7 @@ table.files tr.navigation-focus td {
 .commit-ref{
 	background:$darkblue !important;
 }
+
 .tabnav-pr .tabnav-tab.selected,.tabnav-tab.selected{
 	background: #2C3A44 !important;
 	color:$white !important;
@@ -467,7 +479,6 @@ table.files tr.navigation-focus td {
 
 .full-commit{
 	background-color: $mainblue !important;
-	// color:#fff !important;
 
 	p.commit-title{
 		color:#fff !important;
@@ -476,7 +487,6 @@ table.files tr.navigation-focus td {
 	.commit-meta{
 		background-color: $mainblue !important;
 	}
-
 }
 
 .commit-desc pre{
@@ -576,6 +586,17 @@ table.files tr.navigation-focus td {
 
 .codesearch-aside .filter-list li span.bar{
 	background: $green !important;
+}
+
+// for login page
+.auth-form{
+	.auth-form-header{
+		color: #fff !important;
+	}
+
+	.auth-form-body{
+		background-color: $mainblue !important;
+	}
 }
 
 // for gist
